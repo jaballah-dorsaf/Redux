@@ -1,0 +1,48 @@
+
+.App {
+  text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+	background-color:#edf2f0;
+  color: #b4b4b4;
+  margin: 20px;
+ 
+}
+
+.App-header {
+  background-color: #edf2f0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #eeecec;
+  
+}
+.profile{
+  border:'1px solid black';
+  background-color: #d1cfcf;
+  color: black;
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+h2{
+  color: #108cdf;
+  font-size: 30px;
+}
+h3{
+  color: #108cdf;
+}
+a:hover{
+  transform: scale(1.015);
+  transition: .15s;
+}
+a:active{
+  transform: scale(.9);
+  transition: .15s;
+}
